@@ -1,0 +1,64 @@
+body{
+
+    background-color: #F2F2f2;
+
+    font-family: 'Merriweather', serif;
+
+}
+.sidebar{
+
+   
+
+    background-color: #393e46;
+
+    left: 0;
+
+    top: 0;
+
+    height: 100%;
+
+    width: 200px;
+
+    padding: 10px;
+
+    position: absolute;
+
+}
+.sidebar ul{
+
+    margin-top: auto;
+
+    list-style: none;
+
+    padding: 100% 10% 50%;
+
+}
+.sidebar li{
+
+    padding: 20px;
+
+}
+.sidebar a{
+
+    text-decoration: none;
+
+    color: #F2F2f2;
+
+    display: block;
+
+
+}
+.sidebar li-hover{
+
+    background-color: #f96d00;
+
+}
+
+.profile{
+    max-width:300px;
+    margin:10px;
+    float:left;
+    margin-right:20px;
+    margin-bottom:30px;
+    margin-left:200px;
+}
