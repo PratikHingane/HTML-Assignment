@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+
+    <style>
+        div {
+            box-sizing: border-box;
+            width: 50%;
+            border: 5px solid black;
+            float: left;
+            align-content: center;
+            align-items: center;
+            background-color: aquamarine;
+        }
+ 
+        form {
+            margin: 0 auto;
+            width: 600px;
+        }
+        table{
+            border : 10px solid black;
+        }
+</style>
+</head>
+<body>
+    <div>
+    <center>
+    <table style width="50%">
+        <tr>
+            <td>
+    <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <form name="registration" onsubmit="return ValidationForm()" method="post">
+        
+    <p><b>Name: </b><input type="text" size="65" name="Name" /></p>
+    <br />
+        
+    <p><b>Address: </b><input type="text" size="65" name="Address" />
+    </p><br />
+        
+    <p><b>E-mail Address:</b> <input type="text" size="65" name="EMail" /></p>
+    <br />
+        
+    <p><b>Password: </b><input type="text" size="65" name="Password" /></p>
+    <br />
+
+    <p><b>Confirm Password: </b><input type="text" size="65" name="ConfirmPassword" /></p>
+    <br />
+        
+    <p><b>Telephone: </b><input type="text" size="65" name="Telephone" /></p>
+    <br />
+
+        
+     <p>
+            <input type="submit"
+                value="send" name="Submit" />
+            <input type="reset"
+                value="Reset" name="Reset" />
+    </p>
+
+    </form>
+</td>
+</tr>
+</table>
+</center>
+</div>
+</body>
+</html>
+

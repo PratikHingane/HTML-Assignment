@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+</head>
+<body>
+    <script>
+
+        class Student{
+           
+           
+           constructor(name,classname,age,gender,location){
+                this.name = name,
+                this.classname =classname,
+                this.age = age,
+                this.gender = gender,
+                this.location= location
+             }
+
+             print(){
+                 console.log("Name Of the Student: "+ this.name);
+                 console.log("Class: "+this.classname);
+                 console.log("Age :"+this.age);
+                 console.log("Gender: "+this.gender);
+                 console.log("Location: "+this.location);
+             }
+
+            
+        }
+        var pratik = new Student('Pratik',12,24,'Male','Trivandrum');
+        pratik.print();
+        console.log();
+        console.log();
+        var prajot = new Student('Prajot',12,24,'Male','Trivandrum');
+        prajot.print();
+
+        myItems=[pratik,prajot];
+        for(i=0;i<myItems.length;i++){
+            console.log(myItems[i]);
+        }
+
+        
+    </script>
+    
+</body>
+</html>

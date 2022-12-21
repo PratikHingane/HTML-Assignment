@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Events and Callback</h2>
+    <!--Enter Name-->
+    <input type="text" id="txtFirstName" value="Pratik">
+    <button id="btnClick" onclick="handleClick()">ClickMe</button>
+    <script>
+        /*
+        var jsonString =JSON.stringify(
+            {
+                "name":"Pratik",
+                "age":24,
+                "Address":{
+                    "district":"Amravati",
+                    "location":"Gayatri nagar"
+                },
+                "Qualification":{
+                   "Masters":"Post Graduation Diploma in Advanced Computing",
+                   "Degree":"B.E(Mechanical)",
+                   "Diploma":"Mechanical"
+                }
+            }
+        );
+
+        alert(jsonString);
+
+        //JSON can be parsed by using parse()
+        var nameFromJson =JSON.parse(jsonString);
+        alert(nameFromJson.Qualification.Masters);
+        */
+       <h2>Events and Callbacks</h2>
+       //An event occur when the page loads, when user interacts with page elements like CLICK,
+       // HOVERS and CHANGES--- onclick(),onchange(),onmouseover(),ondblclick(),onload()
+       //Java Inbuilt functions
+       //JavaScript listen to the events and executes callback functions.
+       /*
+       Method 1- Events and Callbacks --direct clickEvent
+       */
+
+       var handleClick= function(event){
+            alert(document.getElementById("txtFirstName").value);
+            document.getElementById("txtFirstName").value="Goutham";
+        };
+
+
+       //Method 2- addEventListener()
+    </script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+         table {
+          border: 10px solid black;
+        }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div>
+        <h2> Calculator Application</h2>
+        <center>
+            <table style: width="45%">
+                <tr>
+                    <td>
+    <div class="container">
+
+      <button class="sqrButton" onclick="handleClick(null)">AC</button>
+
+      <input
+
+        readonly
+
+        id="inputClass"
+
+        type="text"
+
+        placeholder="Enter Values"
+
+      />
+
+      <br />
+
+ 
+
+      <button class="sqrButton" onclick="handleClick('+')">+</button>
+
+      <button class="longButton" onclick="handleClick('7')">7</button>
+
+      <button class="longButton" onclick="handleClick('8')">8</button>
+
+      <button class="longButton" onclick="handleClick('9')">9</button>
+
+      <br />
+
+ 
+
+      <button class="sqrButton" onclick="handleClick('-')">-</button>
+
+      <button class="longButton" onclick="handleClick('4')">4</button>
+
+      <button class="longButton" onclick="handleClick('5')">5</button>
+
+      <button class="longButton" onclick="handleClick('6')">6</button>
+
+      <br />
+
+ 
+
+      <button class="sqrButton" onclick="handleClick('*')">*</button>
+
+      <button class="longButton" onclick="handleClick('1')">1</button>
+
+      <button class="longButton" onclick="handleClick('2')">2</button>
+
+      <button class="longButton" onclick="handleClick('3')">3</button>
+
+      <br />
+
+ 
+
+      <button class="sqrButton" onclick="handleClick('/')">/</button>
+
+      <button class="longButton" onclick="handleClick('%')">%</button>
+
+      <button class="longButton" onclick="handleClick('0')">0</button>
+
+      <button class="longButton" onclick="handleClick('.')">.</button>
+
+    </div>
+
+    <button class="longButton" onclick="handleSubmit()">=</button>
+
+    <h2 id="ans"></h2>
+</td>
+</tr>
+</table>
+</center>
+</div>
+  </body>
+
+</html>
+
+<script src="./index.js"></script>

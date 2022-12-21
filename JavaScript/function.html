@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript in Body</h2>
+    <p id="demo"></p>
+    <script>
+        /*function add(numOne,numTwo){
+            return numOne+numTwo;
+        }
+
+        var result= add(100,200);
+        alert(result);
+        console.log(result);*/
+
+        // Lambda Functions
+        var add=(numOne,numTwo)=>{
+            return numOne+numTwo;
+        }
+
+        //var result= add(200,700);
+       // alert(result);
+       // console.log(result);
+
+        //Array
+        /*
+        myItems=['Mobile','Watch','Bottle'];
+        for(i=0;i<myItems.length;i++){
+            console.log(myItems[i]);
+        }
+
+        myItems.push('Milk')
+        myItems.push("Gauri")
+
+        for(i=0;i<myItems.length;i++){
+            console.log(myItems[i]);
+        }
+        */
+
+        var Student={
+            name :"Sanjay",
+            age :14,
+            talk:function(){
+                alert("Hello all")
+            }
+        };
+
+        alert(Student.name);
+        (Student.talk());
+
+    </script>
+</body>
+</html>
