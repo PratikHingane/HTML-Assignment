@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var rectangle_js_1 = require("./rectangle.js");
+var square_js_1 = require("./square.js");
+var MainArea_js_1 = require("./MainArea.js");
+var square = new square_js_1.Square(10);
+var rectangle = new rectangle_js_1.Rectangle(15, 10);
+var mainArea = new MainArea_js_1.Main();
+console.log("Area of Square : " + mainArea.calculateArea(square));
+console.log("Area of Rectangle : " + mainArea.calculateArea(rectangle));
